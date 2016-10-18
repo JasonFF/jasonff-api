@@ -1,0 +1,468 @@
+[Tue Jun 28 2016 13:35:25 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:12:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:35:27 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:12:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:35:27 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:12:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:35:28 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:12:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:35:29 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:12:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:35:29 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:12:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:35:30 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:12:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:35:30 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:12:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:35:30 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:12:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:35:30 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:12:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:35:30 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:12:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:35:31 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:12:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:35:31 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:12:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:35:31 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:12:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:35:31 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:12:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:35:31 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:12:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:36:24 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:13:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:36:54 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:13:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:37:58 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:13:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:48:03 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:13:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:48:04 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:13:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:48:05 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:13:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:48:05 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:13:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 13:48:56 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:13:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 14:01:48 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:13:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)
+[Tue Jun 28 2016 14:09:21 GMT+0800 (CST)] /signup
+TypeError: newUser.get is not a function
+    at /Users/jasonff/github/jianshu-react/api/routes/index.js:13:13
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/connect-flash/lib/flash.js:21:5
+    at Layer.handle [as handle_request] (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:312:13)
+    at /Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/jasonff/github/jianshu-react/node_modules/express/lib/router/index.js:271:10)
+    at /Users/jasonff/github/jianshu-react/node_modules/express-session/index.js:432:7
+    at tryCatcher (/Users/jasonff/github/jianshu-react/node_modules/bluebird/js/release/util.js:16:23)

@@ -1,0 +1,40 @@
+{
+  "name": "jasonff-api",
+  "version": "1.0.0",
+  "description": "JasonFF's api",
+  "author": "JasonFF",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=5.0.0",
+    "npm": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node ./api.js"
+  },
+  "dependencies": {
+    "babel-register": "^6.16.3",
+    "body-parser": "^1.15.2",
+    "connect-mongo": "^1.2.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "isomorphic-fetch": "^2.2.1",
+    "markdown": "^0.5.0",
+    "mongodb": "^2.2.10",
+    "morgan": "^1.7.0",
+    "multer": "^1.1.0",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-plugin-add-module-exports": "^0.1.4",
+    "babel-plugin-react-transform": "^2.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.6.0",
+    "babel-plugin-typecheck": "^3.9.0",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}
