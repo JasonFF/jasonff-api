@@ -6,6 +6,7 @@ var blogList = require('./blogList.js')
 var blogDetail = require('./blogDetail.js');
 var updateBlog = require('./updateBlog.js');
 var myBlogList = require('./myBlogList.js');
+var test = require('./test.js');
 
 module.exports = function(app) {
   app.all('*', function(req, res, next) {
@@ -26,4 +27,5 @@ module.exports = function(app) {
   app.use('/updateblog', updateBlog);
   app.use('/updateblogscan', updateBlog);
   app.use('/mybloglist', myBlogList);
+  app.use('/test', test);
 }
