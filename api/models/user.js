@@ -28,7 +28,6 @@ User.prototype.get = function(options, callback) {
 		})
 	})
 }
-
 User.prototype.save = function(callback) {
 	var user = {
 		password: this.password,
