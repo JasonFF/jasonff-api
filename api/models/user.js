@@ -19,10 +19,11 @@ User.prototype.get = function(options, callback) {
 			collection.findOne({
 				$or:[{email:options.email},{username:options.username}]
 			}, function(err, data) {
-				if (err) {
-					mongodb.close();
-				};
-				callback(null,data)
+				mongodb.close();
+                if (err) {
+                    return callback(err);
+                }
+				callback(null,data);
 			})
 		})
 	})
@@ -44,8 +45,6 @@ User.prototype.save = function(callback) {
 				mongodb.close();
 				return callback(err);
 			};
-			console.log('saving')
-			console.log(user)
 			collection.insert(user, {
 				safe: true
 			}, function(err, data) {

@@ -37,6 +37,7 @@ router.post('/',upload.array(), function(req, res){
     email: req.body.email
   });
   newUser.get({email: newUser.email, username: newUser.username}, function(err, user){
+      console.log(err)
     if (user) {
       return res.send({status:2,msg:'repeated'})
     }
