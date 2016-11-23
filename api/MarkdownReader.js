@@ -2,7 +2,7 @@ var fs = require('fs');
 var path = require('path');
 var markdown = require('markdown').markdown;
 var request = require('request');
-var downloadPic = require('../widgets/downloadPic');
+var downloadPic = require('./widgets/downloadPic');
 
 function MarkdownReader(options) {
     this.from = options.from;
@@ -75,7 +75,6 @@ MarkdownReader.prototype._getArticle = function(files, index) {
     } catch (e) {
         console.error(e);
     }
-
     if (!config) {
         console.error(files + " 编译失败了！！" + files + " 编译失败了！！" + files + " 编译失败了！！" + files + " 编译失败了！！" + files + " 编译失败了！！")
         console.log("请在 " + files + " 开头添加JSON格式的信息！参照栗子！请注意JSON的语法！请不要在JSON中写对象！！")
@@ -131,8 +130,7 @@ MarkdownReader.prototype._getPic = function(md,filename) {
         })
     }
     if (urls) {
-        var rootPath = path.join(__dirname,'../../')
-        var basePath = path.join(rootPath,'/dist');
+        var basePath = path.join(__rootPath,'/dist');
         for (var i = 0; i < urls.length; i++) {
             var imgName = filename.replace('.md','')+'_'+i+'.png';
             downloadPic(urls[i],basePath,imgName)
