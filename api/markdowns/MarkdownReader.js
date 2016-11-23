@@ -104,11 +104,11 @@ MarkdownReader.prototype._getPic = function(md,filename) {
     }
     if (urls) {
         var rootPath = path.join(__dirname,'../../')
-        var basePath = path.join(rootPath,'/dist/images');
+        var basePath = path.join(rootPath,'/dist');
         for (var i = 0; i < urls.length; i++) {
             var imgName = filename.replace('.md','')+'_'+i+'.png';
             downloadPic(urls[i],basePath,imgName)
-            _md = _md.replace(urls[i],'/dist/images'+imgName)
+            _md = _md.replace(urls[i],'/dist/'+imgName)
         }
     }
     return _md
