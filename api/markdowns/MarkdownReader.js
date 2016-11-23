@@ -21,7 +21,7 @@ MarkdownReader.prototype.apply = function() {
 
         for (var i = 0; i < files.length; i++) {
             if (that.rule.test(files[i])) {
-                if (!that._getArticle(files[i])) {
+                if (!that._hasArticle(files[i])) {
                     return false
                 }
                 mddata.push(that._getArticle(files[i], i))
@@ -31,6 +31,34 @@ MarkdownReader.prototype.apply = function() {
         fs.writeFileSync(path.join(that.to, 'notebook.json'), JSON.stringify(that._getNotebook(mddata)))
     })
 }
+
+
+MarkdownReader.prototype._hasArticle = function(files, index) {
+    var that = this;
+    var fileInfo;
+    var _path = path.join(that.from, files);
+    var fileText = fs.readFileSync(path.join(that.from, files)).toString()
+    var configText = fileText.substring(0, fileText.indexOf('}') + 1)
+    var markdownText = fileText.substring(fileText.indexOf('}') + 1);
+    var fileInfo = fs.statSync(_path)
+
+    try {
+        var config = JSON.parse(configText)
+    } catch (e) {
+        console.error(e);
+    }
+
+    if (!config) {
+        console.error(files + " 编译失败了！！" + files + " 编译失败了！！" + files + " 编译失败了！！" + files + " 编译失败了！！" + files + " 编译失败了！！")
+        console.log("请在 " + files + " 开头添加JSON格式的信息！参照栗子！请注意JSON的语法！请不要在JSON中写对象！！")
+        console.log("你看看你写的什么 " + configText)
+        return false
+    }
+
+    return true
+}
+
+
 
 MarkdownReader.prototype._getArticle = function(files, index) {
     var that = this;
@@ -108,7 +136,7 @@ MarkdownReader.prototype._getPic = function(md,filename) {
         for (var i = 0; i < urls.length; i++) {
             var imgName = filename.replace('.md','')+'_'+i+'.png';
             downloadPic(urls[i],basePath,imgName)
-            _md = _md.replace(urls[i],'/dist/'+imgName)
+            _md = _md.replace(urls[i],'http://api.jasonff.top/dist/'+imgName)
         }
     }
     return _md
