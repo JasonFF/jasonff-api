@@ -81,15 +81,15 @@ MarkdownReader.prototype._getArticle = function(files, index) {
         console.log("你看看你写的什么 " + configText)
         return false
     }
-
+    config._key = index;
+    config.id = files.replace('.md', '');
     var markdownHTML = markdown.toHTML(markdownText);
     // console.log(/src=\".+\"{1}/.exec(markdownHTML)[0])
     // request.head(uri, function(err, res, body){
     //     request(uri).pipe(fs.createWriteStream(dir + "/" + filename));
     // });
     config.html = markdownHTML;
-    config._key = index;
-    config.id = files.replace('.md', '');
+
 
     return config
 }
