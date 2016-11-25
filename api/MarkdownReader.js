@@ -1,6 +1,6 @@
 var fs = require('fs');
 var path = require('path');
-var markdown = require('markdown').markdown;
+var marked = require('marked');
 var request = require('request');
 var downloadPic = require('./widgets/downloadPic');
 
@@ -83,7 +83,7 @@ MarkdownReader.prototype._getArticle = function(files, index) {
     }
     config._key = index;
     config.id = files.replace('.md', '');
-    var markdownHTML = markdown.toHTML(markdownText);
+    var markdownHTML = marked(markdownText);
     // console.log(/src=\".+\"{1}/.exec(markdownHTML)[0])
     // request.head(uri, function(err, res, body){
     //     request(uri).pipe(fs.createWriteStream(dir + "/" + filename));
