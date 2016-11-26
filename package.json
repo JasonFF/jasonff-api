@@ -11,7 +11,7 @@
   },
   "scripts": {
     "start": "node ./api.js",
-    "build": "node ./api.js",
+    "build": "rm -rf dist && node ./api.js",
     "pic": "node ./api/widgets/downloadPic.js"
   },
   "dependencies": {

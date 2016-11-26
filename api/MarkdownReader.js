@@ -12,6 +12,12 @@ function MarkdownReader(options) {
 
 MarkdownReader.prototype.apply = function() {
     var that = this;
+    try {
+        fs.readdirSync(path.resolve(__rootPath,'./dist'))
+    } catch (e) {
+        fs.mkdirSync(path.resolve(__rootPath,'./dist'))
+    }
+
     fs.readdir(that.from, function(error, files) {
         if (error) {
             console.error(error)
@@ -21,43 +27,20 @@ MarkdownReader.prototype.apply = function() {
 
         for (var i = 0; i < files.length; i++) {
             if (that.rule.test(files[i])) {
-                if (!that._hasArticle(files[i])) {
-                    return false
+                var article;
+                try {
+                    article = that._getArticle(files[i], i);
+                    mddata.push(article)
+                } catch (e) {
+                    console.log(e)
                 }
-                mddata.push(that._getArticle(files[i], i))
+
             }
         }
         fs.writeFileSync(path.join(that.to, 'data.json'), JSON.stringify(mddata.reverse()))
         fs.writeFileSync(path.join(that.to, 'notebook.json'), JSON.stringify(that._getNotebook(mddata)))
     })
 }
-
-
-MarkdownReader.prototype._hasArticle = function(files, index) {
-    var that = this;
-    var fileInfo;
-    var _path = path.join(that.from, files);
-    var fileText = fs.readFileSync(path.join(that.from, files)).toString()
-    var configText = fileText.substring(0, fileText.indexOf('}') + 1)
-    var markdownText = fileText.substring(fileText.indexOf('}') + 1);
-    var fileInfo = fs.statSync(_path)
-
-    try {
-        var config = JSON.parse(configText)
-    } catch (e) {
-        console.error(e);
-    }
-
-    if (!config) {
-        console.error(files + " 编译失败了！！" + files + " 编译失败了！！" + files + " 编译失败了！！" + files + " 编译失败了！！" + files + " 编译失败了！！")
-        console.log("请在 " + files + " 开头添加JSON格式的信息！参照栗子！请注意JSON的语法！请不要在JSON中写对象！！")
-        console.log("你看看你写的什么 " + configText)
-        return false
-    }
-
-    return true
-}
-
 
 
 MarkdownReader.prototype._getArticle = function(files, index) {
