@@ -1,0 +1,49 @@
+{
+  "title": "webpack-dev-server的学习",
+  "time": "2017-02-04 09:35:16",
+  "notebook": "服务器"
+}
+
+# webpack-dev-server的学习
+
+首先，看一个最基本的webpack.config.js的写法
+
+```
+module.exports = {
+    entry: './src/js/index.js',
+    output: {
+        path: './dist/js',
+        filename: 'bundle.js'
+    }
+}
+```
+
+配置文件提供一个入口和一个出口，`webpack`根据这个来进行js的打包和编译工作。虽然`webpack`提供了`webpack --watch`的命令来动态监听文件的改变并实时打包，输出新`bundle.js`文件，这样文件多了之后打包速度会很慢，此外这样的打包的方式不能做到`hot replace`，即每次`webpack`编译之后，你还需要手动刷新浏览器。
+
+`webpack-dev-server`其中部分功能就能克服上面的2个问题。`webpack-dev-server`主要是启动了一个使用`express`的`Http服务器`。**它的作用主要是用来伺服资源文件**。此外这个`Http服务器`和`client`使用了`websocket通讯协议`，原始文件作出改动后，`webpack-dev-server`会实时的编译，但是最后的编译的文件并没有输出到目标文件夹，即上面配置的:
+
+```
+output: {
+    path: './dist/js',
+    filename: 'bundle.js'
+}
+```
+- 注意：你启动webpack-dev-server后，你在目标文件夹中是看不到编译后的文件的,实时编译后的文件都保存到了内存当中。因此很多同学使用webpack-dev-server进行开发的时候都看不到编译后的文件
+
+----
+启动`webpack-dev-server`有两种方式：
+1. 通过`cmd line`
+2. 通过`Nodejs api`
+
+
+### cmd line 模式
+
+#### content-base
+
+设定`webpack-dev-server`伺服的`directory`。如果不进行设定的话，默认是在当前目录下。
+
+> webpack-dev-server --content-base ./dist
+
+这个时候还要注意的一点就是在`webpack.config.js`文件里面，如果配置了`output`的`publicPath`这个字段的值的话，在`index.html`文件里面也应该做出调整。因为`webpack-dev-server`伺服的文件是相对`publicPath`这个路径的。
+
+#### Automatic Refresh
